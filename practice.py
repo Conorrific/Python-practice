@@ -16,10 +16,15 @@
 
 numbers = [10,20,30,5]
 number_to_search = int(input("Enter your number to search: "))
-
+found_index = -1
 for index in range(0, len(numbers)):
     if number_to_search == numbers[index]:
-        print("Found!")
+        found_index = index
         break
-    else:
-        print("Not found!")
+if found_index >= 0:
+    print(f"found at index {found_index}")
+else:
+    print("not found")
+
+
+
