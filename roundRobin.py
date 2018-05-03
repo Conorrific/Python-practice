@@ -1,6 +1,7 @@
 import calculatornotes
 
-
+#The stuff inside the () below is arpitrary. It just has to show that there are 
+#four places being used or however many you need. 
 def displayResult(a,b,c,d):
     print("*************************")
     print(f"{first_number} {operand} {second_number} = {result}")
@@ -20,5 +21,5 @@ if operand == "+":
 elif operand == "-":
     result = calculatornotes.sub(first_number,second_number)
 #Why is this still throwing an error?
-#sumthin funny here.. it aint workin. giving an operand error trying to convert it to float or to 
+
 displayResult(first_number,second_number,operand,result)
