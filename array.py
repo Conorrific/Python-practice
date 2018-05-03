@@ -12,6 +12,7 @@ names.append("Some name")
 names.remove("john")
 #remove using del
 del names[0]
+#this is a range loop. It's different than the other array bellow.
 for index in range(0,len(numbers)):
     print(f"index is {index} and value is {numbers[index]}")
 
